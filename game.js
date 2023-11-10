@@ -2,7 +2,7 @@ var player;
 var asteroids = [];
 var offsetWithoutscrollbars = 2;
 var startTime;
-var bestTime = localStorage.getItem('bestTime') || Infinity;
+var bestTime = localStorage.getItem('bestTime') || 0;
 var gameStarted = false;
 
 function startGame() {
