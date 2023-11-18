@@ -171,7 +171,7 @@ function updateGameArea() {
     myGameArea.context.font = "20px Arial";
     myGameArea.context.fillStyle = "black";
     myGameArea.context.fillText("Vrijeme: " + formattedTime, myGameArea.canvas.width - 180, 30);
-    myGameArea.context.fillText("Najbolje vrijeme: " + bestTimeMinutes + ":" + bestTimeSeconds + ":" + bestTimeMili, myGameArea.canvas.width- 245, myGameArea.canvas.height-900);
+    myGameArea.context.fillText("Najbolje vrijeme: " + bestTimeMinutes + ":" + bestTimeSeconds + ":" + bestTimeMili, myGameArea.canvas.width- 245, 60);
 // Logika za kretanje igrača prema pritisnutim tipkama
     if (myGameArea.keys && myGameArea.keys[37]) { 
         player.speed_x = -2; 
